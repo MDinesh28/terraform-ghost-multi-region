@@ -26,7 +26,7 @@ module "ghost_eu_central_1" {
   providers = {
     aws = aws.eu
   }
-  ami = "ami-06178cf087598769c"
+  ami = "ami-06d4d7b82ed5acff1"
 }
 
 module "ghost_ap_southeast_1" {
